@@ -1,4 +1,3 @@
-// Taking Input in array using Readline Package
 var rdl = require('readline');
 var rl = rdl.createInterface({
     input: process.stdin,
@@ -28,3 +27,5 @@ function askNumber() {
         rl.close(); // Close readline after all inputs
     }
 }
+
+askNumber();
